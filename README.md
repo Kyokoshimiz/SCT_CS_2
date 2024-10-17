@@ -1,0 +1,5 @@
+task 02
+Develop a simple image encryption tool using pixel manipulation .support operations like swapping pixel values or applying a basic mathematical operation to each pixel
+An image encryption tool using pixel manipulation works by altering the RGB values of an image's pixels in a reversible manner. Two basic techniques include pixel swapping and applying mathematical operations to each pixel’s values. For pixel swapping, pixels are rearranged based on a predefined key, effectively scrambling the image. Mathematical operations can involve adding, subtracting, or multiplying each pixel’s RGB values by a constant or key, with the results wrapped within the 0-255 range using modulo operations.
+
+For decryption, the reverse of each operation is applied. Pixels are restored to their original positions using the same key for unshuffling, and the inverse of the mathematical operation (e.g., subtraction if addition was used) is applied to return the pixel values to their initial state. These techniques combine to create a simple, reversible encryption system for images that can be made more secure by increasing the complexity of the pixel manipulation process.
